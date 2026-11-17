@@ -557,6 +557,10 @@
         <div class="item"><input type="checkbox" id="item-android-project"><label for="item-android-project">Generate an empty Android activity project (change the name, application ID, namespace, minimum SDK, and output path as needed).</label></div>
       </div>
       <div class="code-row"><div class="codebox"><code>android create empty-activity --name="My App" --application-id=com.example.myapp --namespace=com.example.myapp --min-sdk=24 --output=./my-app</code></div><button class="copy" type="button" data-copy="android create empty-activity --name=&quot;My App&quot; --application-id=com.example.myapp --namespace=com.example.myapp --min-sdk=24 --output=./my-app" aria-label="Copy command"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg><span class="copy-label">Copy</span></button></div>
+      <div class="items">
+        <div class="item"><input type="checkbox" id="item-android-build"><label for="item-android-build">From the generated project directory, build the debug APK.</label></div>
+      </div>
+      <div class="code-row"><div class="codebox"><code>.\gradlew.bat :app:assembleDebug</code></div><button class="copy" type="button" data-copy=".\gradlew.bat :app:assembleDebug" aria-label="Copy command"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg><span class="copy-label">Copy</span></button></div>
     </section>
 
     <section id="n8n">
